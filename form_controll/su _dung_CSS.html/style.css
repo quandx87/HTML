@@ -1,0 +1,195 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px auto 20px auto;
+    border: 12px solid greenyellow;
+    letter-spacing: 0.12em;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    width: 600px;
+    text-align: left;
+}
+h1{
+    text-transform: uppercase;
+    color: green;
+    text-align: left;
+    font-size: 200%;
+}
+li{
+    border-spacing: 0.2em;
+    margin-bottom: 0.2em;
+    line-height: 1.0em;
+    font-size: normal;
+    padding: auto;
+}
+table{
+    border-spacing: 0px;
+    height: 500px;
+    margin-bottom: 50px;
+
+}
+th,td{ 
+    border-spacing: 0px;
+    color: black;
+    text-align:left ;
+    padding: 3px 5px 3px 5px;
+    font-size: 90%;
+    margin: 3px 5px 3px 5px;
+    background-color: lavenderblush;
+    border-top: 0.1px solid white;
+    border-bottom: 0.1px solid WHITE;
+    border-right: 0.1px solid rgb(222, 125, 125);
+    border-left: 0.1px solid rgb(222, 125, 125);
+}
+tr.head th{
+    background-color: lightgrey;
+    text-transform: uppercase;
+    font-size: 100%;
+    color: gray;
+    border-bottom: 3px solid black;
+    text-align: center;
+    text-shadow: 10px 10px 8px lightgray;
+    letter-spacing: 0.2em;
+}
+td{
+    text-shadow: -1px -1px 0.5px #fff;
+}
+tr.even th , tr.even td{
+    background-color: #f2f2f2;
+   
+}
+tr th {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 100%;
+    color: maroon;
+    letter-spacing: 0.1em;
+    
+}
+
+tr.head th:first-child{
+   -webkit-border-top-left: 15px;
+   -moz-border-radius-topleft: 15px;
+   border-top-left-radius: 15px ;
+}
+tr.head th:last-child{
+   -webkit-border-top-right: 15px;
+   -moz-border-radius-topright: 15px;
+   border-top-right-radius: 15px ;
+}
+tr th:hover , tr td:hover{
+    background-color: #911961;
+}
+fieldset{
+    border: 2px solid #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    width : 550px;
+    max-width: 580px;
+    height: 400px;
+    line-height: 1.2em;
+    letter-spacing: 0.2em;
+    font-size: 90%;
+    justify-content: center;
+    
+}
+legend{
+    font-weight: 1000;
+    color: #333;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 150%;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+label{
+    display: inline-block;
+    margin: 5px 0 15px 0;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #555;
+}.title{
+    float:left;
+    width: 180px;
+    clear:left;
+}
+input[type="text"]{
+    width: 300px;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+input[type="text"]:hover, input[type="text"]:focus{
+    border: 1px solid #555;
+    background-color:aqua;
+    border-color: blue;
+    border-radius: 10px;
+    outline:none;
+    color:#555;
+    text-transform: capitalize;
+}
+select{
+    width: 315px;
+    padding: 10px;
+    margin: 5px 5px 15px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+}
+select:hover, select:focus{
+    
+    background-color:aqua;
+    border-color: blue;
+    border-radius: 10px;
+    outline:none;
+    color:#555;
+    text-transform: capitalize;
+}
+span{
+    font-weight: bold;
+    color: #333;
+    font-size: 100%;
+}
+input[type="radio"]{
+    margin-left: 20px;
+    margin-right: 5px;
+  
+}
+.submit{
+    background-color: rgb(154, 217, 20);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+input[type="submit"]{
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer; /*tạo con trỏ*/
+}
+input[type="submit"]:hover{
+    background-color: darkgreen;
+    
+    text-transform: uppercase;
+   
+}
+
+
+

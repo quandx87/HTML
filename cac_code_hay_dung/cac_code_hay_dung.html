@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="vi"> <!--thẻ lớn nhất, lang là language dùng để để quy định ngôn ngữ-->
+    <head>  <!-- thẻ head không được show ra ngoài trang web, dùng để thiết lập cách thức trình bày-->
+        <meta charset="utf-8"/>   
+        <meta name="author" content="Nguyễn Anh Quân">
+        <title> Bài tập 01 </title> <!--đặt tên trên tab -->
+    </head>
+    <body> <!--nội dung được show ra trên web-->
+        <h1> Bài thực hành 1 </h1> <!--h1 đến h6 thì chữ từ to đến nhỏ-->
+        <h2> Bài thực hành 2 </h2>
+        <h3> Bài thực hành 3 </h3>
+        <h4> Bài thực hành 4 </h4>
+        <hr/> <!-- tạo đường gạch ngang-->
+        <div> <!-- tạo bộ cục -->
+            <p> Thẻ &lt;b&gt; : <b> IN ĐẬM </b> </p> <!--thẻ p là tạo đoạn văn bản, xong thì tự động xuống dòng-->
+            
+            <p> Thẻ &lt;i&gt; : <i>IN NGHIÊNG </i> </p>
+            
+            <p> Thẻ &lt;br&gt; : Xuống dòng </p>
+            
+            <p> Thẻ &lt;strong&gt; : tương tự thẻ &lt;b&gt; , được mọi người sử dụng nhiều hơn </p>
+            
+            <p> Thẻ &lt;em&gt; : tương tự thẻ &lt;i&gt; , được mọi người sử dụng nhiều hơn </p>
+            
+            <p> Thẻ &lt;p&gt; : Đoạn văn bản </p>
+            
+            <p> Thẻ &lt;q&gt; : <q> Giúp tạo dấu ngoặc kép</q>, có thể đánh hẳn dấu '"' ra nhưng thẻ &lt;q&gt; nó mang ý nghĩa hơn  </p>
+            
+            <p> 
+                Xin chào các bạn! <br/> Mình tên là Lengendary.
+            </p>
+            
+            <p>
+                Thẻ &lt;div&gt; : đây là tag có thể chứa nhiều tag khác
+            </p>
+            
+            <p> Thẻ &lt;sub &gt; : viết chữ nhỏ xuống như là H<sub>2</sub>0 </p>
+            
+            <p> Thẻ &lt;sup &gt; : viết chữ phía trên như là x<sup>2</sup></p>
+            
+            <p> Thẻ &lt;abbr&gt; : <abbr title = 'Profesor'>Prof</abbr> giúp viết tắt chữ như Profesor thành Prof, trên web sẽ hiện là Prof như khi trỏ chuột vào <br/>sẽ có dòng màu cam phía dưới ghi đầy đủ từ viết tắt là Profesor</p>
+            
+            <p> Thẻ &lt;acronym&gt; : tương tự như thẻ &lt;abbr&gt;, được sử dụng cho tên riêng như <q>ASEAN</q>, <q> NASA</q></p>
+            
+            <p> Thẻ &lt;del&gt; <del> giúp tạo gạch ngang thế này </del> </p>
+            <p> Thẻ &lt;s&gt; <s> tương tự với thẻ &lt;del&gt;</s> </p>
+            
+            <p> Thẻ &lt;ins&gt; <ins> giúp tạo gạch dưới thế này </ins> </p>
+            <hr/>
+            
+            <p>
+                Thẻ &lt;ol&gt; : order list giúp tạo số thứ tự <br/>
+                Ví dụ: <br>
+                <ol type="A"> <!--type là A thì là ABCD..., 
+                    type là a thì là abcd....,
+                    type là I thì là I II III IV ...,
+                    không có type thì mặc định là 1,2,3,4 -->
+                <li> Cài FGO trên CH play</li>
+                <li> Mở game </li>
+                <li> Tải tài nguyên game</li>
+                <li> Đăng kí tài khoản và bắt đầu chơi game </li> 
+                </ol>
+            </p>
+           
+            <p>
+                Thẻ &lt;ul&gt; : tạo list nhưng không có thứ tự như &lt;ol&gt;<br/>
+                Ví dụ: <br>
+                <ul> <!-- dòng này có thể them thuộc tính, đầu dòng có thể đổi
+                    thành hình vuông hoặc hình tam giác,...-->
+                <li> Cài FGO trên CH play</li>
+                <li> Mở game </li>
+                <li> Tải tài nguyên game</li>
+                <li> Đăng kí tài khoản và bắt đầu chơi game </li> 
+                </ul>
+            </p>
+
+            <p> Thẻ &lt;dl&gt;, &lt;dt&gt;, và &lt;dt&gt; <br/>
+                Ví dụ: <br/>
+                <dl> <!-- dt kiểu là tiêu đề, dd là nội dung viết dưới(có lùi dòng của dt)-->
+                <dt>HTML</dt>
+                <dd>Ngôn ngữ Đánh dấu Siêu văn bản (HyperText Markup Language)</dd>
+                <dt>CSS</dt>
+                <dd>Bộ Thông tin Trang trí (Cascading Style Sheets)</dd>
+                <dt>JS</dt>
+                <dd>JavaScript</dd>
+                </dl>
+            </p>
+
+            <p>
+                 Thẻ &lt;a&gt; : tạo liên kết khi ấn vào sẽ dẫn đến một trang khác(giống Wikipedia)<br/>
+                 Ví dụ 1: <a href="D:/Documents/3pha4day">3pha4day</a> <br/>
+                 Ví dụ 2: <a href= " https://www.w3schools.com/html/html_examples.asp " target="_blank"> w3school</a><br/>
+                 Để rõ hơn thì truy cập vào <a href="D:/XMAPP/htdocs/HTML/baitap04"> Link </a> hoặc là 
+                 <a href="https://www.w3schools.com/tags/tag_a.asp"> Link1 </a>
+            </p>
+            
+        
+        </div>
+        <hr/>
+    </body>
+</html>

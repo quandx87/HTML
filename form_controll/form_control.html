@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <form action="#" method="get">
+            <!--Text input-->
+            <p>Tên đăng nhập: <input type="text" name="username" placeholder="Enter your username" size="15" maxlength="20 "><br/></p>
+            <p>Password: <input type="password" name="password" placeholder="Enter your password" size="15" maxlength="30 "><br/> </p>
+            <p> Mô tả bản thân: <textarea  name="mota" cols="30" rows="5" placeholder="Nhập mô tả bản thân"> Nội dung! </textarea></p>
+            <p> Ngày sinh:
+                <input type="date", name="ngaysinh"/>
+            </p>
+            <!-- radio là chỉ được lựa chọn một lựa chọn duy nhất-->
+            <p> Giới tính: 
+                <input type="radio" id="male" name="gender" value="male" checked> <!--checked là mặc định chọn thằng Nam -->
+                <label for = "male"> Nam </label>
+                <input type="radio" id="female" name="gender" value="female" checked> <!--checked là mặc định chọn thằng Nam -->
+                <label for = "female"> Nữ </label> <br/>
+            </p>
+            <!-- Tạo check box (có thể chọn nhiều)-->
+             <p> 
+                <br/>
+                Thẻ &lt;fieldset&lt; giúp tạo khung như dưới
+                <fieldset> <!--tạo khung ( mở preview là rõ)-->
+                    <legend>Sở thích:</legend> <!-- tiêu đề (như matlab)-->
+                <input type="checkbox" id="music" name="hobby" value="music" checked>
+                <label for="music"> Nghe nhạc </label>  <!-- code sẽ trả ra là 'name'='value'
+                                                cụ thể ở đây là hobby=music , id=music chỉ giúp ở label thôi-->
+                <input type="checkbox" id="travel" name="hobby" value="travel">
+                <label for="travel"> Du lịch </label>
+                <input type="checkbox" id="sport" name="hobby" value="sport">
+                <label for="sport"> Thể thao </label> <br/>
+                </fieldset>
+             </p>
+             <!--tạo mũi tên xuống gồm các lựa chọn và chỉ được chọn 1-->
+             <p> Thiết bị bạn hay sử dụng là gì:
+                <select name="thietbi"> 
+                        <option> </option>
+                        <option value="laptop"> Máy Laptop </option>  <!-- trên trang web sẽ hiện 'Máy Laptop'
+                                                                          nhưng trong code thì sẽ hiện là 'laptop'-->
+                        <option value="tablet"> Máy tính bảng </option>
+                        <option value="smartphone"> Đt thông minh </option>    
+                </select>
+             </p> 
+             <!--tạo mũi tên xuống gồm các lựa chọn và  được chọn nhiều -->
+             <p> Thiết bị yêu thích của bạn là gì: <br/>
+                <select name="thietbi1" multiple size="10"> 
+                        <option> </option>
+                        <option value="laptop"> Máy Laptop </option>  <!-- trên trang web sẽ hiện 'Máy Laptop'
+                                                                          nhưng trong code thì sẽ hiện là 'laptop'-->
+                        <option value="tablet"> Máy tính bảng </option>
+                        <option value="smartphone"> Đt thông minh </option>  
+                        <option value="toy"> Đồ chơi </option>   
+                </select>
+             </p> 
+
+             <!-- chọn file-->
+              <p> Avatar của bạn là:
+                <input type="file" name="avatar" />
+              </p>
+             <!-- nút submit-->
+             <p> <input type="submit" value="Đăng kí"/>    <!-- 3  nút submit, reset và button có chức
+                                                                năng khác nhau-->
+             <input type="reset" value="Reset"/> 
+             <input type="button" value="Click me !"/> 
+                </p>
+            <!-- có thể thay thế nút submit bằng hình ảnh -->
+             <p> <input type="image" src="Template\Screenshot 2024-08-23 205204.png"/></p>
+        </form>
+    </body> 
+</html>

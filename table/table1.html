@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title> Lập table</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <style>
+        body footer{
+            font-family: Arial, sans-serif;
+            margin: 20px auto 20px auto;
+            padding: 20px;
+            background-color: white ;
+        }
+        table{
+            width: 660px;
+            height: 500px;
+            margin: 20px auto 20px auto;
+        
+           
+            text-align: center;
+            letter-spacing: 0.12em;
+        }
+        th,td{
+            border: 2px solid #000;
+            padding: 10px;
+            text-align: center;
+            font-size: 150%;
+            font-weight: 700;
+         
+        }
+        tbody th{
+            width: 150px;
+            font-size: 125% ;
+        }
+        th{
+            text-transform: uppercase;
+            background-color: gray;
+        }
+        tr.even{
+            color: aqua;
+        }
+        tr.odd{
+            background-color: #ffffff;
+        }
+        tr:hover{
+            background-color: aqua;
+        }
+        tfoot {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 130%;
+            font-weight: 700;
+            color: red ;
+            border: 2px solid #000;
+        }
+        tfoot td{
+            
+            text-align: right;    
+        }
+
+    </style>
+    <body>
+        <div>
+        <h1> Bảng so sánh giữa 2 tựa game FGO và WUWA </h1>
+        
+                <table>
+                    <thead>  <!-- phần đầu của bảng-->
+                    <tr>
+                        <th > </th>
+                        <th > FGO</th> <!-- scope='col' là tiêu đề cho cột, ='row' tiêu đề cho dòng-->
+                        <th > WUWA </th>
+                    </tr>
+                    </thead>  
+                    <tbody>
+                    <tr>
+                        <th scope="row"> Số lượt tải </th>
+                        <td> 30m </td>
+                        <td> 1m </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"> Animation </th>
+                        <td> bình thường </td>
+                        <td> đẹp tuyệt vời </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"> Tối ưu </th>
+                        <td colspan="2"> khá ok </td>
+                        
+                    </tr>
+                    <tr>
+                        <th scope="row"> Gacha </th>
+                        <td rowspan="2"> không thân thiện</td>
+                        <td> thân thiện</td>
+                    </tr>
+                    <tr>
+                        <th >Hệ thống nhân vật</th>
+                        <td> không powercreep</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="3"> Đến đây là kết thúc</td>
+                </tfoot>  
+                </table>
+            </div>
+    </body>
+</html>

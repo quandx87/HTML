@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title> Lập table</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <h1> Bảng so sánh giữa 2 tựa game FGO và WUWA </h1>
+        <p>
+                Thẻ &lt;table&gt; :  giúp tạo bảng, kèm theo đó cần cả 2 thẻ nữa là &lt;tr&gt;(khai báo hàng)
+                và &lt;td&gt;,&lt;th&gt; (khai báo các phần tử trong hàng và khai báo tiêu đề ) <br/>
+                Ví dụ tạo bảng  <br/>
+                <table border=1 width="100%">
+                    <thead>  <!-- phần đầu của bảng-->
+                    <tr>
+                        <th width="30%"> </th>
+                        <th scope="col" bgcolor="yellow"> FGO</th> <!-- scope='col' là tiêu đề cho cột, ='row' tiêu đề cho dòng-->
+                        <th scope="col" bgcolor="#COCOCO"> WUWA </th>
+                    </tr>
+                    </thead>  
+                    <tbody>
+                    <tr>
+                        <th scope="row"> Số lượt tải </th>
+                        <td> 30m </td>
+                        <td> 1m </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"> Animation </th>
+                        <td> bình thường </td>
+                        <td> đẹp tuyệt vời </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"> Tối ưu </th>
+                        <td colspan="2"> khá ok </td>
+                        
+                    </tr>
+                    <tr>
+                        <th scope="row"> Gacha </th>
+                        <td rowspan="2"> không thân thiện</td>
+                        <td> thân thiện</td>
+                    </tr>
+                    <tr>
+                        <td scope="row" style="text-align: center; vertical-align: middle; height: 50px;"> <b>Hệ thống nhân vật </b></td>
+                        <td> không powercreep</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="3"> Đến đây là kết thúc</td>
+                </tfoot>  
+                </table>
+            </p>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+   
+    color: blue;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    color: royalblue;
+    font-weight: bold;
+}
+p{
+    color: red;
+    font-weight: bold;
+}
+b{
+    font-size: large;
+     color: greenyellow;
+}
+p b{
+    font-size: x-large;
+    color: darkorange;
+}
+p b{
+    color: darkmagenta !important 
+}
+
+p i {
+    font-style: normal;
+    font-weight: bold;
+    color: purple;
+}
+i{
+    font-style: normal;
+    font-weight: bold;
+    color: brown;
+}
+li>a {
+    text-decoration: none;
+    color: darkcyan;
+    font-weight: bold;
+}
+/*  # tác động đến id  */
+#chitiet { 
+    color: darkgreen;   
+}
+/*  '.' tác động đến Class  */
+.noidung {
+    color: darkred;
+}

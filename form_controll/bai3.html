@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORM</title>
+</head>
+<body>
+    <form action="signin.php" method="post">
+        <table border="1">
+            <tr>
+                <td bgcolor="yellow"><h1> CONTACT US</h1></td>
+            </tr>
+            <tr>
+            
+                <td width="200px"> <input type="text" name="fullname" placeholder="Enter your name"/> </td>
+            </tr>
+            tr>
+            
+                <td> <input type="email" name="email" placeholder="Enter your email" required/> </td> <!--required là ngăn viết nhầm -->
+            </tr>
+            <tr>
+            
+                <td> <input type="tel" name="phone" placeholder="Enter your number" required /> </td>
+            </tr>
+            <tr>
+            
+                <td> <input type="number" name="age" placeholder="Enter your age" min="1" max="100" step="1"/> </td>
+            </tr>
+            <tr>
+            
+                <td> <textarea name="message" placeholder="Enter your message" maxlength="500"></textarea> </td> 
+            </tr>
+            <tr>
+            
+                <td> <input type="submit" value="Send" /> </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
